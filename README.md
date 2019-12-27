@@ -21,8 +21,9 @@
 >> * $ git config --global user.name "여러분 깃허브 이름"
 >> * $ git config --global user.email "여러분 이메일"
 >4. $ git add [올릴 파일명]
->5. $ git commit -m '1'
+>5. $ git commit -m '[push메시지명]'
 >6. $ git remote add origin <원격저장주소> : 로컬 저장소에 원격저장소 등록, 주소가 길기 때문에 origin이라는 별명 붙여줌
 >7. $ git push -u origin master :마스터브랜치 푸쉬
 >>-u는 한번만 쓰면됨 이후엔 git push만 하면 자동으로 푸쉬시켜줌(로컬브랜치와 원격브랜치를 동기화) 
 >8. 유저네임, 비밀번호 물어봄 > 입력 >푸시가 됨
+4,5,7번만 반복
