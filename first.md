@@ -13,6 +13,6 @@
 >1. 저장소의 주소 복사
 >2. 윈도우의 가져올 폴더에서 마우스 우클릭>git bash here로 git bash창 열기
 >3. 깃을 처음 설치한 경우 처음에만 다음을 설정
->  * $ git config --global user.name "여러분 깃허브 이름"
->  * $ git config --global user.email "여러분 이메일"
+>>  * $ git config --global user.name "여러분 깃허브 이름"
+>> * $ git config --global user.email "여러분 이메일"
 >4. $ git clone 복사한 저장소 주소 명령어를 통해 저장소 가져오기
