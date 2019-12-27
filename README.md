@@ -12,7 +12,7 @@
 >* $ git clone 복사한 저장소 주소 : 저장소 가져오기
 >* $ git push -u origin master : 현재 브랜치를 원격저장소 origin의 master에 동기화함
 >* $ git remote remove <원격저장소이름> : 원격저장소로 등록한 이름과 주소 삭제
->7. $ git remote -v : 원격저장소 보기
+>* $ git remote -v : 원격저장소 보기
 
 파일을 github에 올리기
 >1. 저장소의 주소 복사
