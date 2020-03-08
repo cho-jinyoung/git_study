@@ -3,7 +3,7 @@
 ## GitHub 시작하기
 * git 설치 후 gitbash프로그램(리눅스 명령어 사용가능)을 열어 $ git 명령어로 잘 설치되었는지 확인
 
-명령어
+### 명령어
 >* $ git init : 현재 디렉토리에서 작업은 진행할 것임을 git에게 알려줌, 버전관리를 하고자 하는 폴더로 가서 git init을 입력하면 .git이라는 숨김파일이 생성
 >* $ git add[파일명] : 해당 파일을 git이 관리할 대상으로 등록
 > - 등록시 'LF will be replaced by CRLF in [파일명]' 과 같은 오류 발생시 -> $  git config --global core.autocrlf true (core.autocrlf 켜기)
@@ -14,7 +14,7 @@
 >* $ git remote remove <원격저장소이름> : 원격저장소로 등록한 이름과 주소 삭제
 >* $ git remote -v : 원격저장소 보기
 
-파일을 github에 올리기
+### 파일을 github에 올리기
 >1. 저장소의 주소 복사
 >2. 윈도우의 가져올 폴더에서 마우스 우클릭>git bash here로 git bash창 열기
 >3. 깃을 처음 설치한 경우 처음에만 다음을 설정
@@ -32,3 +32,8 @@
 > git push -f 옵션을 추가하여 강제로 push
 > git pull 명령어로 원격 저장소 폴더의 파일을 내려받아 로컬 저장소의 폴더 파일과 같도록 한다 
 > ```
+
+### 업로드 한 파일 삭제
+>* $ git rm [파일명] : 원격 저장소and로컬 저장소 파일 삭제
+>* $ git rm --cached [파일명] : 원격 저장소에 있는 파일만 삭제
+>* $ rm [파일명] : 로컬 에 있는 파일만 삭제
